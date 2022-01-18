@@ -4,26 +4,65 @@
     box-sizing: border-box;
 }
 
+
+body {
+    width: 80%;
+    margin:25px auto;
+}
+
+main {
+    width: 100%;
+}
+
 header {
     background-color: #e579e6;
     height: 100px;
 }
 
-body {
-    width: 90%;
-    margin:25px auto;
-}
-
-main {
-    margin: 20px;
+main section {
+    margin: 25px auto 10px;
     width: 100%;
-    margin: 20px auto;
 }
 
 .firstSection {
     background-color: #e1d67a;
     height: 400px;
+}
+
+.secondSection {
+    background-color: #0086ff;
+    height: 600px;
+}
+
+.secondSection div {
+    background-color: #abcfe7;
+    clear: both;
+}
+
+.barraAlto {
     width: 100%;
+    float: left;
+}
+
+.sidebarSinistra {
+    width: 30%;
+    float: left;
+}
+
+.middleContainer {
+    width: 30%;
+    float: left;
+}
+
+.sidebarDestra {
+    width: 30%;
+    float: right;
+}
+
+footer {
+    background-color: #8801fe;
+    width: 100%;
+    height: 50px;
 }
 /*#e579e6
 #e1d67a
