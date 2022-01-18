@@ -6,6 +6,13 @@
 
 header {
     background-color: #e579e6;
+    height: 100px;
+}
+
+body {
+    width: 90%;
+    margin:25px auto;
+    height: 700px;
 }
 /*#e579e6
 #e1d67a
