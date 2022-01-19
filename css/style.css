@@ -9,7 +9,7 @@ main {
     margin:25px auto;
 }
 
-header {
+.header1 {
     width: 80%;
     background-color: #e579e6;
     height: 100px;
@@ -26,12 +26,14 @@ header {
 .secondSection {
     background-color: #0086ff;
     height: 600px;
-    margin: 25px 0px;
+    margin-bottom: 10px;
 }
 
 .secondSection div {
     background-color: #abcfe7;
     float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .barraAlto {
@@ -44,7 +46,9 @@ header {
 }
 
 .middleContainer {
-    width: 40%;
+    width: 38%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .sidebarDestra {
