@@ -46,7 +46,7 @@ main {
 }
 
 .middleContainer {
-    width: 38%;
+    width: calc(40% - 20px);
     margin-left: 10px;
     margin-right: 10px;
 }
