@@ -4,59 +4,57 @@
     box-sizing: border-box;
 }
 
-
-body {
+main {
     width: 80%;
     margin:25px auto;
 }
 
-main {
-    width: 100%;
-}
-
 header {
+    width: 80%;
     background-color: #e579e6;
     height: 100px;
-}
-
-main section {
-    margin: 25px auto 10px;
-    width: 100%;
+    margin: auto;
 }
 
 .firstSection {
     background-color: #e1d67a;
     height: 400px;
+    margin: 25px auto;
+    width: 100%;
 }
 
 .secondSection {
     background-color: #0086ff;
     height: 600px;
+    margin: 25px 0px;
 }
 
 .secondSection div {
     background-color: #abcfe7;
-    clear: both;
+    float: left;
 }
 
 .barraAlto {
     width: 100%;
-    float: left;
+    background-color: #abcfe7;
 }
 
 .sidebarSinistra {
     width: 30%;
-    float: left;
 }
 
 .middleContainer {
-    width: 30%;
-    float: left;
+    width: 40%;
 }
 
 .sidebarDestra {
     width: 30%;
-    float: right;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: left;
 }
 
 footer {
